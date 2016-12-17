@@ -10,6 +10,7 @@ var checkChi = require('../StatesEmitter/checkChi');
 var checkNestRqC = require('../StatesEmitter/checkNestRqC');
 var checkNestSel = require('../dcl/nest_sel/check');
 var checkNestCnt = require('../dcl/nest_conj/check');
+var checkProbe = require('../dcl/probe/check');
 
 var changeDataMorphDeclarations = require('../dcl/changeDataMorphDeclarations');
 var collectNestingsDeclarations = require('../dcl/collectNestingsDeclarations');
@@ -32,6 +33,7 @@ return function(self, props, original, params) {
 	checkNestRqC(self, props);
 	checkNestSel(self, props);
   checkNestCnt(self, props);
+  checkProbe(self, props);
 
 
 
