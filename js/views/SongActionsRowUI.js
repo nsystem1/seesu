@@ -165,6 +165,11 @@ var SongActionsRowUI = spv.inh(etc_views.ActionsRowUI, {}, {
 	bindBase: function(){
 		this._super();
 		this.createVolumeControl();
+    debugger;
+	},
+	'nest_probe-context_parts2': {
+		probe_name: 'song_action',
+		source: 'current_md'
 	},
 	'compx-vis_is_visible': [['^mp_show_end'], function (value) {
 		return Boolean(value);
