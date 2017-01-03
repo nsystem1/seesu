@@ -142,6 +142,15 @@ var initView = function(target, view_otps, opts){
 	prsStCon.connect.root(target);
 };
 
+var changeProbeUniversal = function (e, node, raw_args) {
+  var bwlev_view = $v.getBwlevView(this);
+
+  var args = raw_args.slice();
+  args.splice(1, 0, bwlev_view.mpx._provoda_id);
+
+  this.RPCLegacy.apply(this, args);
+}
+
 var View = spv.inh(StatesEmitter, {
 	naming: function(fn) {
 		return function View(view_otps, opts) {
@@ -175,7 +184,9 @@ var View = spv.inh(StatesEmitter, {
 
 			var md_id = this.mpx._provoda_id;
 			bwlev_view.RPCLegacy('followTo', md_id);
-		}
+		},
+    toggleProbe: changeProbeUniversal,
+		updateProbe: changeProbeUniversal,
 	},
 	onExtend: spv.precall(StatesEmitter.prototype.onExtend, function (md, props, original, params) {
 		return onPropsExtend(md, props, original, params);

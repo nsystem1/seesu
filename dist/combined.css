@@ -3912,235 +3912,235 @@ html.opera-extension{
 						background-color: transparent;
 					}
 					
-					.addsong-to-playlist{
-						padding:1rem 0 0;
-						}
-						.addsong-to-playlist h4{
+		        .addsong-to-playlist{
+		        	padding:1rem 0 0;
+		        	}
+		        	.addsong-to-playlist h4{
 
-							margin: 0 0 0.5rem 0.2rem;
-							padding: 0;
-							font-weight:400;
-							}
-						.addsong-to-playlist .playlist-query{
+		        		margin: 0 0 0.5rem 0.2rem;
+		        		padding: 0;
+		        		font-weight:400;
+		        		}
+		        	.addsong-to-playlist .playlist-query{
 
-							margin-bottom: 1rem;
-							}
-							.addsong-to-playlist .create-named-playlist{
-								color:transparent;
-								}
-							.theme--dark .addsong-to-playlist .create-named-playlist{
-						color:#757575;
-					}
-								.addsong-to-playlist .create-named-playlist em{
-									color: transparent;
-									}
-								.theme--dark .addsong-to-playlist .create-named-playlist em{
-						color:#ccc;
-					}
-							.addsong-to-playlist .suggest{
-								padding:0.3rem;
-								border-radius:0.3rem;
-								cursor: pointer;
-								}
-								.addsong-to-playlist .suggest:hover{
-									background-color: transparent;
-									}
-								.theme--dark .addsong-to-playlist .suggest:hover{
-						background-color:#494949;
-					}
-							.addsong-to-playlist .list-of-playlists{
-								width:200px;
-								}
-					
-					.share-song{
-						padding-top:1rem;
-						}
-						.share-song .song-link{
-							box-sizing: border-box;
-							width:100%;
-							}
-						.share-song .users-list{
+		        		margin-bottom: 1rem;
+		        		}
+		        		.addsong-to-playlist .create-named-playlist{
+		        			color:transparent;
+		        			}
+		        		.theme--dark .addsong-to-playlist .create-named-playlist{
+		        	color:#757575;
+		        }
+		        			.addsong-to-playlist .create-named-playlist em{
+		        				color: transparent;
+		        				}
+		        			.theme--dark .addsong-to-playlist .create-named-playlist em{
+		        	color:#ccc;
+		        }
+		        		.addsong-to-playlist .suggest{
+		        			padding:0.3rem;
+		        			border-radius:0.3rem;
+		        			cursor: pointer;
+		        			}
+		        			.addsong-to-playlist .suggest:hover{
+		        				background-color: transparent;
+		        				}
+		        			.theme--dark .addsong-to-playlist .suggest:hover{
+		        	background-color:#494949;
+		        }
+		        		.addsong-to-playlist .list-of-playlists{
+		        			width:200px;
+		        			}
+		        
+		  			.share-song{
+		  				padding-top:1rem;
+		  				}
+		  				.share-song .song-link{
+		  					box-sizing: border-box;
+		  					width:100%;
+		  					}
+		  				.share-song .users-list{
 
-							margin-top:1.72rem;
-							}
+		  					margin-top:1.72rem;
+		  					}
 
-							.share-song .song_acting_vk_search{
-								overflow: hidden;
-								}
-							.share-song .users-list .vk-login-context{
-								margin:1rem -1rem 0;
-								border-radius: 0;
-							}
-							.share-song .song_acting_vk_search{
+		  					.share-song .song_acting_vk_search{
+		  						overflow: hidden;
+		  						}
+		  					.share-song .users-list .vk-login-context{
+		  						margin:1rem -1rem 0;
+		  						border-radius: 0;
+		  					}
+		  					.share-song .song_acting_vk_search{
 
-							}
-							.share-user-suggest{
-								float:left;
-								width:50%;
-								margin-bottom:7px;
-							}
-					.shareb-base .details_switch_block{
-						float: right;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
-						}
-						.shareb-base .details_switch_block .desc{
-							float:left;
-							margin-right: 0.5rem;
-							}
-						.shareb-base .details_switch_block  .details_switch{
-							float: right;
-							}
+		  					}
+		  					.share-user-suggest{
+		  						float:left;
+		  						width:50%;
+		  						margin-bottom:7px;
+		  					}
+		  			.shareb-base .details_switch_block{
+		  				float: right;
+		  				margin-bottom: 0.2rem;
+		  				margin-top: 0.2rem;
+		  				}
+		  				.shareb-base .details_switch_block .desc{
+		  					float:left;
+		  					margin-right: 0.5rem;
+		  					}
+		  				.shareb-base .details_switch_block  .details_switch{
+		  					float: right;
+		  					}
 
-						.shareb-base .details_for_switcher{
-							clear: both;
-							}
-					
-					.shareb-base.sharebopened .share-user-suggest{
-
-
-
-					  }
-					  .shareb-base .share-user-suggest a{
-					    min-width:200px;
-					  }
-					  .shareb-base .share-user-suggest a, .post-to-my-vk-wall{
-					    display: block;
-					    overflow: hidden;
-					    padding: 3px 6px 3px 3px;
-					    border-radius:3px;
-					    cursor: pointer;
-					    }
-					  .share-user-suggest img{
-					    width:25px;
-					    height:25px;
-					    float: left;
-					  }
-					  .shareb-base .share-user-suggest img, .post-to-my-vk-wall img{
-					    float:left;
-					    margin-right:7px;
-					    width:1.8rem;
-					    height:1.8rem;
-					    }
-					  .shareb-base .share-user-suggest:hover a,.post-to-my-vk-wall:hover{
-					    background-color: transparent;
-					    }
-					  .theme--dark .shareb-base .share-user-suggest:hover a,.theme--dark .post-to-my-vk-wall:hover{
-					    background-color:#494949;
-					}
-					
+		  				.shareb-base .details_for_switcher{
+		  					clear: both;
+		  					}
+		  			
+		  			.shareb-base.sharebopened .share-user-suggest{
 
 
-					.vk_share{
 
-						}
-						.vk_share h3{
+		  			  }
+		  			  .shareb-base .share-user-suggest a{
+		  			    min-width:200px;
+		  			  }
+		  			  .shareb-base .share-user-suggest a, .post-to-my-vk-wall{
+		  			    display: block;
+		  			    overflow: hidden;
+		  			    padding: 3px 6px 3px 3px;
+		  			    border-radius:3px;
+		  			    cursor: pointer;
+		  			    }
+		  			  .share-user-suggest img{
+		  			    width:25px;
+		  			    height:25px;
+		  			    float: left;
+		  			  }
+		  			  .shareb-base .share-user-suggest img, .post-to-my-vk-wall img{
+		  			    float:left;
+		  			    margin-right:7px;
+		  			    width:1.8rem;
+		  			    height:1.8rem;
+		  			    }
+		  			  .shareb-base .share-user-suggest:hover a,.post-to-my-vk-wall:hover{
+		  			    background-color: transparent;
+		  			    }
+		  			  .theme--dark .shareb-base .share-user-suggest:hover a,.theme--dark .post-to-my-vk-wall:hover{
+		  			    background-color:#494949;
+		  			}
+		  			
 
-							}
-						.share_header_wrap{
-							overflow: hidden;
-							margin-top: 1.5rem;
-						}
-						.vk_share_header{
-							float:left;
-							color: transparent;
-							padding-top: 0.1rem;
-							margin: 0 1rem 0 0;
-						}
-						.theme--dark .vk_share_header{
-							color: #999;
-					}
-						.post-to-my-vk-wall{
-							float:left;
-						}
-					.lfm_share{
-						margin-top: 0.5rem;
-					}
 
-					.song_acting_vk_search{
-						overflow: hidden;
-					}
-					.shareb-base{
-						background: transparent;
-						border: 1px solid transparent;
-						border-top: 1px solid transparent;
-						border-bottom: 1px solid transparent;
-						border-radius: 0.5rem;
-						margin-bottom: 0.2rem;
-						padding: 0.7rem;
-						overflow: hidden;
-						}
-					.theme--dark .shareb-base{
-							background-color: #545454;
-							border-color: transparent;
-							border-top-color: #4E4E4E;
-							border-bottom-color: #646464;
-					}
+		  			.vk_share{
 
-						.shareb-con{
-							clear: both;
-							}
+		  				}
+		  				.vk_share h3{
 
-					
-					.protect_clicks{
-						position: relative;
+		  					}
+		  				.share_header_wrap{
+		  					overflow: hidden;
+		  					margin-top: 1.5rem;
+		  				}
+		  				.vk_share_header{
+		  					float:left;
+		  					color: transparent;
+		  					padding-top: 0.1rem;
+		  					margin: 0 1rem 0 0;
+		  				}
+		  				.theme--dark .vk_share_header{
+		  					color: #999;
+		  			}
+		  				.post-to-my-vk-wall{
+		  					float:left;
+		  				}
+		  			.lfm_share{
+		  				margin-top: 0.5rem;
+		  			}
 
-						}
-					.clicks_protecter{
-						position: absolute;
-						display: none;
-						left:0;
-						top:0;
-						bottom: 0;
-						right: 0;
-						background: transparent;
-						opacity: 0.5;
-						}
-					.theme--dark .clicks_protecter{
-						background-color: #333;
+		  			.song_acting_vk_search{
+		  				overflow: hidden;
+		  			}
+		  			.shareb-base{
+		  				background: transparent;
+		  				border: 1px solid transparent;
+		  				border-top: 1px solid transparent;
+		  				border-bottom: 1px solid transparent;
+		  				border-radius: 0.5rem;
+		  				margin-bottom: 0.2rem;
+		  				padding: 0.7rem;
+		  				overflow: hidden;
+		  				}
+		  			.theme--dark .shareb-base{
+		  					background-color: #545454;
+		  					border-color: transparent;
+		  					border-top-color: #4E4E4E;
+		  					border-bottom-color: #646464;
+		  			}
 
-					}
-						.clicks_protecter:hover{
-							cursor: pointer;
-							border-bottom: 0.2rem solid transparent;
-							}
-						.theme--dark .clicks_protecter:hover{
-						border-bottom-color: #fff;
+		  				.shareb-con{
+		  					clear: both;
+		  					}
 
-					}
-					.compact_share {
+		  			
+		  			.protect_clicks{
+		  				position: relative;
 
-						}
-						.compact_share .clicks_protecter{
-							display: block;
-						}
-						.share-song .compact_share .protect_clicks{
-							height: 4.5rem;
-							}
-						.compact_share .share-user-suggest{
-							width: auto;
-							margin-bottom:0;
-						}
-						.compact_share .share-user-suggest a{
-							padding: 0;
-							border-radius: 0;
-							cursor: default;
-							min-width: 0;
-							}
-						.compact_share .share-user-suggest img{
-							margin-right:0;
-							}
-						.compact_share .text_part{
-							display: none;
-							}
+		  				}
+		  			.clicks_protecter{
+		  				position: absolute;
+		  				display: none;
+		  				left:0;
+		  				top:0;
+		  				bottom: 0;
+		  				right: 0;
+		  				background: transparent;
+		  				opacity: 0.5;
+		  				}
+		  			.theme--dark .clicks_protecter{
+		  				background-color: #333;
 
-					.friends-search-desc{
-						clear: both;
-						float: left;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
-						}
-					
+		  			}
+		  				.clicks_protecter:hover{
+		  					cursor: pointer;
+		  					border-bottom: 0.2rem solid transparent;
+		  					}
+		  				.theme--dark .clicks_protecter:hover{
+		  				border-bottom-color: #fff;
+
+		  			}
+		  			.compact_share {
+
+		  				}
+		  				.compact_share .clicks_protecter{
+		  					display: block;
+		  				}
+		  				.share-song .compact_share .protect_clicks{
+		  					height: 4.5rem;
+		  					}
+		  				.compact_share .share-user-suggest{
+		  					width: auto;
+		  					margin-bottom:0;
+		  				}
+		  				.compact_share .share-user-suggest a{
+		  					padding: 0;
+		  					border-radius: 0;
+		  					cursor: default;
+		  					min-width: 0;
+		  					}
+		  				.compact_share .share-user-suggest img{
+		  					margin-right:0;
+		  					}
+		  				.compact_share .text_part{
+		  					display: none;
+		  					}
+
+		  			.friends-search-desc{
+		  				clear: both;
+		  				float: left;
+		  				margin-bottom: 0.2rem;
+		  				margin-top: 0.2rem;
+		  				}
+		  			
 				.nodewebkit .track-listeners{
 				  display: none;
 				}

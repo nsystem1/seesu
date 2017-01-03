@@ -65,9 +65,8 @@ var SongActTaggingControl = spv.inh(View, {}, {
 	children_views: {
 		lfm_tagsong: LfmTagItView
 	},
-	'collch-$ondemand-lfm_tagsong': {
+	'collch-lfm_tagsong': {
 		place: 'c',
-		needs_expand_state: 'active_view'
 	}
 });
 return SongActTaggingControl;
