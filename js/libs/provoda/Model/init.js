@@ -2,6 +2,8 @@ define(function (require) {
 'use strict';
 
 var cloneObj = require('spv').cloneObj;
+var reportProbe = require('../dcl/probe/report');
+var reportZeroPath = reportProbe.reportZeroPath;
 
 return function initModel(self, opts, data, params, more, states) {
   self.current_motivator = self.current_motivator || (opts && opts._motivator);
@@ -97,6 +99,8 @@ return function initModel(self, opts, data, params, more, states) {
     toServStates(self, self.head);
   }
 
+  reportZeroPath(self);
+
   if (!self.init_service_states) {
     return self;
   }
@@ -111,7 +115,6 @@ return function initModel(self, opts, data, params, more, states) {
 
   cloneObj(self.init_states, self.init_service_states);
   self.init_service_states = null;
-
 
   return self;
 };
