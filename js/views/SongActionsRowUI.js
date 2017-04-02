@@ -206,9 +206,7 @@ var SongActionsRowUI = spv.inh(etc_views.ActionsRowUI, {}, {
 			return mp_show_end;
 		}
 	],
-	children_views: {
-		__run_probe_song_action: Probe
-	},
+	'probe-song_action': Probe,
 	getVHoleWidth: function() {
 		return this.tpl.ancs['v-hole'].width();
 	},

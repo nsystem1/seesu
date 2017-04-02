@@ -9,7 +9,7 @@ var collectSelectorsOfCollchs = require('../dcl_view/collectSelectorsOfCollchs')
 var collectCollectionChangeDeclarations = require('../dcl_view/collectCollectionChangeDeclarations');
 var changeChildrenViewsDeclarations = require('../dcl_view/changeChildrenViewsDeclarations');
 var collectStateChangeHandlers = require('../dcl_view/v-collectStateChangeHandlers');
-var checkNestProbe = require('../dcl_view/nest_probe/check');
+var checkProbe = require('../dcl_view/probe/check-dcl');
 
 var getBaseTreeCheckList = function(start) {
 	var i, result = [];
@@ -48,7 +48,7 @@ var getBaseTreeCheckList = function(start) {
 };
 
 return function(self, props, original) {
-  checkNestProbe(self, props);
+  checkProbe(self, props);
   checkApis(self, props);
 
 	collectStateChangeHandlers(self, props);
