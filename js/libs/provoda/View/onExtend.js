@@ -10,6 +10,7 @@ var collectCollectionChangeDeclarations = require('../dcl_view/collectCollection
 var changeChildrenViewsDeclarations = require('../dcl_view/changeChildrenViewsDeclarations');
 var collectStateChangeHandlers = require('../dcl_view/v-collectStateChangeHandlers');
 var checkProbe = require('../dcl_view/probe/check-dcl');
+var checkProbeWatch = require('../dcl_view/probeWatch');
 
 var getBaseTreeCheckList = function(start) {
 	var i, result = [];
@@ -80,5 +81,7 @@ return function(self, props, original) {
 		cloneObj(self.tpl_r_events, original.tpl_r_events);
 		cloneObj(self.tpl_r_events, props.tpl_r_events);
 	}
+
+	checkProbeWatch(self, props)
 };
 });
