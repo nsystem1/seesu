@@ -121,6 +121,8 @@ var BrowseLevel = spv.inh(Model, {
 	'stch-to_init': function(target, struc) {
 		if (!struc) {return;}
 
+		// init nestings
+
 		initNestingsByStruc(target.getNesting('pioneer'), struc);
 	},
 	'compx-to_load': [
@@ -132,6 +134,8 @@ var BrowseLevel = spv.inh(Model, {
 	],
 	'stch-to_load': function(target, struc) {
 		if (!struc) {return;}
+
+		// load nestings (simple)
 
 		loadNestingsByStruc(target.getNesting('pioneer'), struc);
 	},
@@ -167,6 +171,8 @@ var BrowseLevel = spv.inh(Model, {
 		if (obj.inactive == (prev && prev.inactive)) {
 			return;
 		}
+
+		// load everything
 
 		loadAllByStruc(target.getNesting('pioneer'), obj, prev);
 	}
